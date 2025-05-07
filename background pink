@@ -1,0 +1,66 @@
+/* Force global background color */
+html, body, #app-mount, .app-1-2-0 {
+  background-color: #f8e1e8 !important; /* Pastel Pink Background */
+  color: #4a1d3f !important; /* Text color */
+}
+
+/* Chat container background */
+#chat, .chat, .messages, .message {
+  background-color: #fcd9e1 !important; /* Lighter pastel pink */
+}
+
+/* Sidebar background */
+#sidebar, .sidebar {
+  background-color: #f8e1e8 !important; /* Pastel Pink */
+}
+
+/* Text input area */
+textarea, .textArea {
+  background-color: #fff0f5 !important; /* Light pinkish white */
+  color: #4a1d3f !important; /* Text color */
+  border: 1px solid #f3a6c4 !important; /* Border color */
+}
+
+/* Message bubbles */
+.message {
+  background-color: #fcd9e1 !important; /* Light pastel pink */
+  color: #4a1d3f !important;
+}
+
+/* Usernames */
+.username {
+  color: #e23d7f !important; /* Pinkish username color */
+}
+
+/* Button Styles */
+button {
+  background-color: #f9c9d3 !important; /* Soft pink button */
+  border: 1px solid #f3a6c4 !important; /* Border color */
+  color: #4a1d3f !important; /* Text color */
+}
+
+button:hover {
+  background-color: #f7b0c4 !important; /* Hover effect on buttons */
+}
+
+/* Links */
+a {
+  color: #f3a6c4 !important; /* Soft pink accent for links */
+}
+
+/* Status indicators */
+.status-online {
+  background-color: #ff99cc !important; /* Soft pinkish online indicator */
+}
+
+.status-idle {
+  background-color: #ffd1e0 !important; /* Lighter pink idle indicator */
+}
+
+.status-dnd {
+  background-color: #f7a3b4 !important; /* Darker pink DND indicator */
+}
+
+.status-offline {
+  background-color: #f3d0da !important; /* Very light pink offline indicator */
+}
