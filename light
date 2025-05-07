@@ -1,60 +1,80 @@
+/* MAIN BACKGROUND COLORS */
 :root {
-  --background-primary: #fff8f8;
-  --background-secondary: #fff0f0;
-  --background-tertiary: #ffeaea;
+  --background-primary: #fff5f5;
+  --background-secondary: #ffeeee;
+  --background-tertiary: #ffe4e4;
   --channeltextarea-background: #ffffff;
 
-  --text-normal: #2d1f1f;
-  --text-muted: #6e4b4b;
-  --text-link: #bb5a5a;
+  --text-normal: #3e2e2e;
+  --text-muted: #8a5a5a;
+  --text-link: #c75b5b;
 
   --header-primary: #2d1f1f;
   --header-secondary: #5c3b3b;
 
   --background-floating: #fff4f4;
-  --modal-background: #fff8f8;
+  --modal-background: #fffafa;
 
-  --brand-experiment: #e89191; /* Accent (buttons, links, highlights) */
-  --brand-experiment-560: #f0aaaa;
-  --brand-experiment-600: #ffbbbb;
+  --brand-experiment: #e68a8a;
+  --brand-experiment-600: #f5b5b5;
 }
 
-/* Background tweaks */
-.theme-light .appMount-3lHmkl {
-  background-color: var(--background-primary);
+/* APP BACKGROUND */
+.appMount-3VJmYg,
+.app-2CXKsg,
+.bg-1QIAus,
+.wrapper-1_HaEi,
+.container-2cd8Mz {
+  background-color: var(--background-primary) !important;
 }
 
-/* Channel list */
-.sidebar-1tnWFu {
-  background-color: var(--background-secondary);
+/* SIDEBAR */
+.sidebar-1tnWFu,
+.sidebarRegionScroller-FXiQOh {
+  background-color: var(--background-secondary) !important;
 }
 
-/* Chat area */
-.chatContent-3KubbW {
-  background-color: var(--background-primary);
-  color: var(--text-normal);
+/* CHAT AREA */
+.chatContent-3KubbW,
+.content-1jQy2l {
+  background-color: var(--background-primary) !important;
 }
 
-/* Message box */
-.channelTextArea-1FufC0 {
-  background-color: var(--channeltextarea-background);
+/* TEXT AREAS */
+.channelTextArea-1FufC0,
+.scrollableContainer-15eg7h {
+  background-color: var(--channeltextarea-background) !important;
+  color: var(--text-normal) !important;
 }
 
-/* Messages */
+/* MESSAGES */
 .message-2CShn3 {
-  background-color: var(--background-tertiary);
+  background-color: var(--background-tertiary) !important;
   border-radius: 8px;
+  padding: 6px 10px;
   margin: 4px 0;
-  padding: 4px 8px;
+  color: var(--text-normal) !important;
 }
 
-/* User popouts and modals */
+/* MODALS & FLOATING ELEMENTS */
 .userPopout-2j1gM4,
-.modal-2LIEKY {
-  background-color: var(--modal-background);
+.modal-2LIEKY,
+.root-1gCeng,
+.layer-86YKbF {
+  background-color: var(--background-floating) !important;
 }
 
-/* Scrollbar */
+/* BUTTONS */
+.button-38aScr {
+  background-color: var(--brand-experiment) !important;
+  color: white !important;
+}
+
+.button-38aScr:hover {
+  background-color: var(--brand-experiment-600) !important;
+}
+
+/* SCROLLBARS */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -62,14 +82,4 @@
 ::-webkit-scrollbar-thumb {
   background-color: var(--brand-experiment);
   border-radius: 4px;
-}
-
-/* Accent buttons */
-.button-38aScr {
-  background-color: var(--brand-experiment);
-  color: white;
-}
-
-.button-38aScr:hover {
-  background-color: var(--brand-experiment-600);
 }
