@@ -1,0 +1,75 @@
+:root {
+  --background-primary: #fff8f8;
+  --background-secondary: #fff0f0;
+  --background-tertiary: #ffeaea;
+  --channeltextarea-background: #ffffff;
+
+  --text-normal: #2d1f1f;
+  --text-muted: #6e4b4b;
+  --text-link: #bb5a5a;
+
+  --header-primary: #2d1f1f;
+  --header-secondary: #5c3b3b;
+
+  --background-floating: #fff4f4;
+  --modal-background: #fff8f8;
+
+  --brand-experiment: #e89191; /* Accent (buttons, links, highlights) */
+  --brand-experiment-560: #f0aaaa;
+  --brand-experiment-600: #ffbbbb;
+}
+
+/* Background tweaks */
+.theme-light .appMount-3lHmkl {
+  background-color: var(--background-primary);
+}
+
+/* Channel list */
+.sidebar-1tnWFu {
+  background-color: var(--background-secondary);
+}
+
+/* Chat area */
+.chatContent-3KubbW {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+
+/* Message box */
+.channelTextArea-1FufC0 {
+  background-color: var(--channeltextarea-background);
+}
+
+/* Messages */
+.message-2CShn3 {
+  background-color: var(--background-tertiary);
+  border-radius: 8px;
+  margin: 4px 0;
+  padding: 4px 8px;
+}
+
+/* User popouts and modals */
+.userPopout-2j1gM4,
+.modal-2LIEKY {
+  background-color: var(--modal-background);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--brand-experiment);
+  border-radius: 4px;
+}
+
+/* Accent buttons */
+.button-38aScr {
+  background-color: var(--brand-experiment);
+  color: white;
+}
+
+.button-38aScr:hover {
+  background-color: var(--brand-experiment-600);
+}
