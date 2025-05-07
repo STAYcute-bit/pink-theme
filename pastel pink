@@ -9,15 +9,16 @@
   --border-color: #f3a6c4; /* Accent border color */
 }
 
-/* Body and overall layout */
-body {
+/* Force the background of the entire body */
+html, body {
   background-color: var(--primary-bg) !important;
   color: var(--text-color) !important;
 }
 
-/* Message area */
-.chat {
+/* Force message area background */
+#chat, .chat, .messages, .message {
   background-color: var(--secondary-bg) !important;
+  color: var(--text-color) !important;
 }
 
 /* Server name and channel name */
@@ -26,7 +27,7 @@ body {
 }
 
 /* Text input area */
-textarea {
+textarea, .textArea {
   background-color: #fff0f5 !important; /* Light pinkish white */
   border: 1px solid var(--border-color) !important;
   color: var(--text-color) !important;
@@ -65,7 +66,7 @@ a {
 }
 
 /* Sidebar */
-#sidebar {
+#sidebar, .sidebar {
   background-color: var(--primary-bg) !important;
 }
 
