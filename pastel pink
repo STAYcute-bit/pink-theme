@@ -1,0 +1,87 @@
+/* Base Colors */
+:root {
+  --primary-bg: #f8e1e8; /* Pastel Pink Background */
+  --secondary-bg: #fcd9e1; /* Lighter Pastel Pink */
+  --text-color: #4a1d3f; /* Darker shade for text */
+  --accent-color: #f3a6c4; /* Soft pink accent */
+  --button-bg: #f9c9d3; /* Soft pink button */
+  --button-hover-bg: #f7b0c4; /* Hover effect on buttons */
+  --border-color: #f3a6c4; /* Accent border color */
+}
+
+/* Body and overall layout */
+body {
+  background-color: var(--primary-bg) !important;
+  color: var(--text-color) !important;
+}
+
+/* Message area */
+.chat {
+  background-color: var(--secondary-bg) !important;
+}
+
+/* Server name and channel name */
+#server-header, #channel-name {
+  color: var(--accent-color) !important;
+}
+
+/* Text input area */
+textarea {
+  background-color: #fff0f5 !important; /* Light pinkish white */
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Message bubbles */
+.message {
+  background-color: var(--secondary-bg) !important;
+  color: var(--text-color) !important;
+}
+
+/* Usernames */
+.username {
+  color: #e23d7f !important; /* Pinkish username color */
+}
+
+/* Button Styles */
+button {
+  background-color: var(--button-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-color) !important;
+}
+
+button:hover {
+  background-color: var(--button-hover-bg) !important;
+}
+
+/* Hover effects for chat messages */
+.message:hover {
+  background-color: var(--button-bg) !important;
+}
+
+/* Links */
+a {
+  color: var(--accent-color) !important;
+}
+
+/* Sidebar */
+#sidebar {
+  background-color: var(--primary-bg) !important;
+}
+
+/* Status indicators */
+.status-online {
+  background-color: #ff99cc !important; /* Soft pinkish online indicator */
+}
+
+.status-idle {
+  background-color: #ffd1e0 !important; /* Lighter pink idle indicator */
+}
+
+.status-dnd {
+  background-color: #f7a3b4 !important; /* Darker pink DND indicator */
+}
+
+.status-offline {
+  background-color: #f3d0da !important; /* Very light pink offline indicator */
+}
